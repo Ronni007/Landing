@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 500px;
+  margin: 0% auto;
+}
+
+header {
+  background: #a9a1a1;
+}
+
+header ul li a {
+  text-decoration: rgb(7, 222, 104);
+  color: #c61978;
+  font-size: 2rem;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.portada-2 {
+  background-image: url(../assets/portada-2.jpg);
+  min-width: 200px;
+}
+.portada-1 {
+  background-image: url(../assets/portada-1.jpg);
+  min-height: 200px;
+}
+.portada-3 {
+  background-image: url(../assets/portada-3.jpg);
+  min-height: 200px;
+}

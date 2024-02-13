@@ -28,28 +28,40 @@
   font-size: 10px;
 }
 .portada-1 {
+  display: grid;
   margin: 1% auto;
-
+  max-width: 500;
   width: 500px;
   height: 200px;
 }
 .portada-2 {
-  display: flex;
+  display: inline-table;
   margin: 1% auto;
   align-items: center;
   width: 500px;
   height: 200px;
 }
 .portada-3 {
-  margin: 1% auto;
-  max-width: 900px;
+  display: block;
+  margin: 2% auto;
   width: 500px;
   height: 200px;
 }
 .busca {
+  float: right;
   list-style: none;
   color: blueviolet;
-  display: flex;
+  margin: -1% auto;
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: content-box;
+  font-size: 14px;
+}
+.butbus {
+  padding: 10px;
+  font-size: 14px;
 }
 .buca {
   justify-content: space-between;

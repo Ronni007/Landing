@@ -21,11 +21,18 @@
 }
 
 .registrarse {
-  color: black;
+  display: flex;
+  max-width: 200px;
+  color: rgb(49, 227, 85);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  align-items: center;
+  align-items: self-end;
   margin: 1% auto;
-  font-size: 10px;
+  justify-content: space-between;
+  text-decoration: overline;
+  box-sizing: content-box;
+  border-radius: 3px;
+  font-size: 14px;
+  color: aqua;
 }
 .portada-1 {
   display: grid;

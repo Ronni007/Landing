@@ -12,41 +12,33 @@
   <header>
     <nav>
       <ul class="botones">
-        <li>
-          <a href="Eventos/eventos.html "> Eventos</a>
-        </li>
-        <li>
-          <a href="Noticias/noticias.html">Noticias</a>
-        </li>
-        <li>
-          <a href="Nosotros/nosotros.html">Nosotros</a>
-        </li>
-        <li>
+        <li class="botones">
           <a href="Novedades/novedades.html">Novedades</a>
         </li>
-        <li>
+        <li class="botones">
           <a href="Clasificaciones/clasificaciones.html">Clasificaciones</a>
         </li>
       </ul>
     </nav>
   </header>
   <nav>
-    <ul>
+    <ul class="lista__registro">
       <li class="registrarse">
-        <a href="Registrar/registro.html"><button type="submit"> Registrarse</button></a>
-        <a href="Login/InicioSesion.html"><button type="submit"> Iniciar sesión</button></a>
+        <a class="enlaces" href="Registrar/registro.html"> <button class="enlaces" type="submit">
+            Registrarse</button></a>
+      </li>
+      <li class="registrarse">
+        <a class="enlaces" href="Login/InicioSesion.html"> <button class="enlaces" type="submit"> Iniciar sesión
+          </button></a>
       </li>
     </ul>
   </nav>
-  <ul class="busca">
-    <li>
-      <form action="....." method="get">
-        <input class="butbus" type="text" name="Busqueda" id="">
-        <button class="butbus" type="submit"> Buscar</button>
-
-      </form>
-    </li>
-  </ul>
+  <nav class="busca">
+    <form action="....." method="get">
+      <input class="butbus" type="text" name="Busqueda" id="">
+      <button class="butbus" type="submit"> Buscar</button>
+    </form>
+  </nav>
   <div class="buca">
     <h2>
       BUCADEPORTES
@@ -55,10 +47,27 @@
       Lo que buscas en deportes de la ciudad!...
     </P>
   </div>
-  <main>
-    <div> <img class="portada-2" src="assets/portada-2.jpg" alt="logo"></div>
-    <div> <img class="portada-1" src="assets/portada-1.jpg" alt="Logo"></div>
-    <div> <img class="portada-3" src="assets/portada-3.jpg" alt="logo"></div>
+  <main class="enlace">
+    <div class="portada_2 ">
+      <ul>
+        <li class="back">
+          <a href="Eventos/eventos.html "> Eventos</a>
+        </li>
+        <img src="assets/portada-2.jpg" alt="logo" class="portada">
+    </div>
+    <div class="portada_1">
+      <li class="back">
+        <a href="Noticias/noticias.html">Noticias</a>
+      </li>
+      <img src="assets/portada-1.jpg" alt="Logo" class="portada">
+    </div>
+    <div class="portada_3">
+      <li class="back">
+        <a href="Nosotros/nosotros.html">Nosotros</a>
+      </li>
+      <img src="assets/portada-3.jpg" alt="logo" class="portada">
+      </ul>
+    </div>
   </main>
 </body>
 
